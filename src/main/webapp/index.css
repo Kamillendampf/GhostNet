@@ -1,0 +1,27 @@
+
+#map {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+body{
+    margin: 0 auto;
+    background-color: beige;
+    width: 100%;
+    height: 965px;
+}
+
+
+.overView{
+    z-index: auto;
+    width: 30%;
+    height: 100%;
+float: right;
+    background-color: blue;
+}
+.container{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}

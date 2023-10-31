@@ -1,0 +1,24 @@
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.submitBtn{
+    background-color: beige;
+    border-radius: 15px;
+    border: 2px solid rgb(245,222,179);
+    cursor: pointer;
+}
+
+.text{
+    border-radius: 15px;
+    border: 2px solid rgb(245,222,179);
+}
+
+.ghostNetCartsContainer{
+    margin-top: 20px;
+    border-top: 2px solid rgb(245,222,179);
+    justify-content: center;
+    text-align: center;
+}
