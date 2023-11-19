@@ -3,10 +3,12 @@
     <deployment type="dockerfile">
       <settings>
         <option name="buildKitEnabled" value="true" />
-        <option name="buildOnly" value="true" />
+        <option name="containerName" value="ghost-net" />
         <option name="sourceFilePath" value="Dockerfile" />
       </settings>
     </deployment>
-    <method v="2" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="docker-compose.yml: Compose Deployment" run_configuration_type="docker-deploy" />
+    </method>
   </configuration>
 </component>

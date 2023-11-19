@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+       POSTGRES_DB: ghost-net
+       POSTGRES_USER: postgres
+       POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+    ports:
+      - "3000:3000"
